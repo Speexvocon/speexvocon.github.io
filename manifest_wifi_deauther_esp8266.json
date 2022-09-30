@@ -1,0 +1,11 @@
+{
+  "name": "Spacehuhn Deauther for ESP-01s",
+  "version": "v2",
+  "home_assistant_domain": "slim_player",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [{ "path": "firmware/esp8266_deauther.generic.bin", "offset": 0 }]
+    }
+  ]
+}
